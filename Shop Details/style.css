@@ -1,0 +1,23 @@
+#background {
+  background-image: url('/Shop Details/Background\ \(1\).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 800px; */
+  height: 300px;
+}
+.product-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.description-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.review-section img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
