@@ -1,0 +1,26 @@
+.profile-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .contact-btn {
+    background-color: #6f42c1;
+    color: #fff;
+    border-radius: 20px;
+  }
+  .social-icons a {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-right: 10px;
+    transition: color 0.2s;
+  }
+  .social-icons a:hover {
+    color: #6f42c1;
+  }
+  .expertise-item {
+    border-left: 4px solid #6f42c1;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
