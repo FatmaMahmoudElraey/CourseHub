@@ -1,0 +1,48 @@
+.custom-navbar {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px 20px;
+}
+.custom-navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.custom-navbar .social-icons i {
+    margin-right: 10px;
+    color: white;
+}
+#background {
+    background-image: url('/Blog Details/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 800px; */
+    height: 300px;
+}
+.sidebar {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+.quote {
+    font-style: italic;
+    font-weight: bold;
+    color: #6c5ce7;
+}
+.author-box {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+.author-box img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.contact-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
