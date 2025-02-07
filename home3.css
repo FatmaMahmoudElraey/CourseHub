@@ -248,3 +248,30 @@ h5{
 .col-md-7{
     padding-left: 120px;
 }
+
+
+/* section 8 */
+.custom-tealText {color: #2FC7A1;}
+        .custom-tealBG {background-color: #2FC7A1;}
+        .custom-orangeText {color: #FE543D;}
+        .custom-orangeBG {background-color: #FE543D;}
+        .custom-blueText {color: #17254E;}
+        .custom-blueBG {background-color: #17254E;}
+
+.w-50{
+    width: 200px;
+}
+
+
+
+/* section 9 */
+.school-testimonial .card-qutation {
+    left: 45%;
+    top: 40%;
+    background: linear-gradient(to right, #30373f, #fe543d);
+  }
+  .school-testimonial {
+    /* background-image: url(img/bg-blue.png); */
+    background: linear-gradient(to right, #0e2a46, #2f5579);
+    /* color: #30373f; */
+  }
