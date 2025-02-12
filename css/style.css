@@ -1,0 +1,502 @@
+:root {
+    --primary-color: #17254E;
+    --primary-light-color: #23366e;
+    --secondary-color: #704FE6;
+    --secondary-light-color: #8168db;
+    --yellow-color: #FFD25D;
+    --card-background: #E9E2FF;
+}
+
+#contactBar {
+    background-color: var(--primary-color);
+}
+
+.left svg {
+    color: var(--yellow-color);
+}
+
+.right {
+    padding: 11px 22px;
+    background-color: var(--yellow-color);
+}
+
+.right svg {
+    color: var(--primary-color);
+}
+
+.btn {
+    color: #fff;
+    border-radius: 90px;
+    transition: 0.5s;
+    padding: 0 0 0 30px;
+}
+
+.main-btn {
+    background-color: var(--secondary-color);
+}
+
+.main-btn:hover {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.second-btn {
+    background-color: var(--primary-color);
+}
+
+.second-btn:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.second-btn:hover svg, .main-btn:hover svg {
+    color: #fff;
+}
+
+.circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.circle-main {
+    background-color: var(--secondary-light-color);
+}
+
+.circle-second {
+    background-color: var(--primary-light-color);
+
+}
+
+header{
+    background-image: url(../images/header-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-text p:first-child{
+    color: var(--secondary-color);
+}
+.header-text h1{
+    color: var(--primary-color);
+}
+
+/* categories------------------------------------ */
+
+.small-title{
+    background-color: var(--card-background);
+    color: var(--secondary-color);
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+.categories .small-title{
+    margin: auto;
+}
+
+.categories .card{
+    height: 6rem;
+}
+h2{
+    color: var(--primary-color);
+}
+
+.card-blue{
+    background-color: #EAF6FF;
+}
+.categories .card{
+    color: var(--primary-color);
+}
+
+.categories h5{
+    font-weight: bold;
+}
+
+.card-pink{
+background-color: #FEF2F4;
+}
+
+.card-green{
+    background-color:#EEFBF5 ;
+}
+.card-yellow{
+    background-color: #FFF3D9;
+}
+.card-violet{
+    background-color: #DFD4F4;
+}
+
+/* courses---------------------------------------- */
+
+.price{
+    color: var(--secondary-color);
+}
+
+.courses .card{
+    border: 2px dashed var(--secondary-color);
+    background-color: #F4F5F8;
+}
+.courses .card .card-body{
+    padding: 1rem 0 0 0;
+}
+.courses .info{
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 13px;
+
+}
+.info p{
+    margin-bottom: 0;
+}
+.courses .card-body{
+    background-image: url(../images/courses/course_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top-p{
+    position: absolute;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 8px 16px;
+    bottom: 0;
+    left: 1rem;
+}
+/* about------------------------------------------------- */
+.yellow-circle{
+    background-color: var(--yellow-color);
+    width: 244px;
+    height: 244px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    color: #333;
+    top: 25%;
+    left: 25%;
+}
+.about-img2{
+    left: 65%;
+    top: 5%;
+}
+.about-dots{
+    left: 70%;
+    top: 0;
+}
+.about p{
+    color: var(--primary-color);
+}
+/* choose ---------------------------------------------- */
+.choose .card svg{
+    color: var(--secondary-color);
+}
+.choose h5{
+    color: var(--primary-color);
+}
+.choose .card{
+    padding: 0.5rem 1rem;
+    background-color: #E9E2FF;
+}
+.choose .card p{
+    color: #4D5756;
+}
+
+/* numbers ----------------------------------------- */
+.nums .icon{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: var(--primary-color);
+}
+.numbers{
+    background-color: var(--yellow-color);
+}
+.numbers .num{
+    color: var(--primary-color);
+}
+/* testimonials ------------------------ */
+.slider{
+    background-image: url(../images/slider-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.quote-icon {
+    position: absolute;
+    top: -16px;
+    left:  -16px;
+    font-size: 3.5rem;
+    color: #b8b8b8; 
+  }
+  .card {
+    position: relative;
+  }
+  .test-user-prof{
+    color: var(--secondary-color);
+  }
+/*  enroll -=------------------------------- */
+.enroll{
+    background-image: url(../images/Background\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enroll .join{
+    color: var(--yellow-color);
+}
+.play{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.fa-play{
+    color: var(--secondary-color);
+}
+/* career ------------------------- */
+.career{
+    background-image: url(../images/career/career-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yellow-btn{
+    background-color: var(--yellow-color);
+}
+.circle-yellow{
+    background-color: #FEB65C;
+}
+.yellow-btn:hover{
+    border: 1px solid var(--yellow-color);
+    color: var(--yellow-color);
+}
+.yellow-btn svg{
+    color: var(--primary-color);
+}
+.yellow-btn:hover svg{
+    color: #fff;
+}
+.shape{
+    background-image: url(../images/career/shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--secondary-color);
+}
+
+.not-shape{
+ background-color: var(--yellow-color);   
+}
+.shape , .not-shape{
+    height: 237px;
+}
+.career-img{
+    /* height: 80%; */
+}
+
+/* ------------------ */
+
+.newsletter{
+    background-image: url(../images/newletter-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* footer -------------------------------- */
+
+
+footer{
+    background-image: url(../images/footer/footer-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .leftsec svg{
+    color: var(--secondary-color);
+}
+
+.footer-social{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #E9E2FF;
+}
+.copyright{
+    background-color: #222;
+}
+.yellow{
+    color: var(--yellow-color);
+}
+
+.purple{
+    color: var(--secondary-color);
+}
+.brdr{
+    border-left: 2px solid #ffffff9a;
+}
+.brdr2{
+    border-bottom: 1px solid #ffffff9a;
+}
+
+.footer-icon{
+    border: 1px solid #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ffffff18;
+
+}
+/* posts-=------------------- */
+
+.posts .card{
+    background-color: #EDEDED;
+}
+
+.light-btn{
+    background-color: #E9E2FF;
+    color: var(--secondary-color);
+}
+.circle-light{
+    background-color: #E3DBFF;
+}
+.light-btn svg{
+    color: var(--secondary-color);
+}
+.light-btn:hover{
+    color: var(--secondary-color);
+}
+.posts .card svg{
+    color: var(--secondary-color);
+}
+.posts .card-body span{
+    color: #4D5756;
+}
+.posts .card-title{
+color: var(--primary-color);
+}
+
+/* breadcrumb ------------------------------------------------- */
+.head-crumb{
+    background-image: url(../images/breadcrumb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-crumb li, .head-crumb h1{
+    color: var(--primary-color);
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #fc6441;
+    font-weight: bold;
+}
+
+/* accordion  */
+.accordion-button{
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #b8b8b8;
+    color: var(--primary-color);
+}
+.accordion-button:not(.collapsed) {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+/* ---------- */
+.purple-bg{
+    background-color: var(--secondary-color);
+}
+
+.price-circle{
+    width: 120px;
+    height: 120px;
+    border:1px solid var(--secondary-color);
+}
+
+.prices .card-header{
+    left: 15%;
+    top: -4%;
+    width: 70%;
+}
+
+.prices .card{
+    background-image: url(../images/price-back.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.prices .card-standard{
+    background-image: url(../images/prica-back2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.prices .card svg{
+    color: #fc6441;
+}
+
+
+/* cart ----------------- */
+.cart-btn{
+    background-color: var(--secondary-color);
+    border-radius: 0px;
+    padding: 1rem 2rem;
+}
+
+/* ============ */
+.basic-btn{
+    background-color: var(--secondary-color);
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 0;
+}
+.basic-btn:hover{
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+
+.orange-btn{
+    background-color: #fc6441;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 0;
+}
+.orange-btn:hover{
+    border: 1px solid #fc6441;
+    background-color: transparent;
+    color: #fc6441;
+}
+
+/* contact ----------------------------*/
+.contact{
+    background-color: #f2f2f2;
+}
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  .contact-icon {
+    color: #6c63ff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  .btn-send {
+    background-color: #6c63ff;
+    color: #fff;
+  }
+  .btn-send:hover {
+    background-color: #5a52d6;
+  }
+  .social-icons a {
+    color: #6c63ff;
+    margin-right: 10px;
+    font-size: 1.25rem;
+  }
