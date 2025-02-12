@@ -1,0 +1,46 @@
+#background {
+    background-image: url('/event_page/Background\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+
+.event-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-image {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.event-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #FFC107;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.event-info {
+    padding: 15px;
+}
+
+.event-time, .event-location {
+    font-size: 14px;
+    color: #28a745;
+}
