@@ -71,7 +71,7 @@
 }
 
 header{
-    background-image: url(../images/header-back.png);
+    background-image: url(../images-fatma/header-back.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -152,7 +152,7 @@ background-color: #FEF2F4;
     margin-bottom: 0;
 }
 .courses .card-body{
-    background-image: url(../images/courses/course_back.png);
+    background-image: url(../images-fatma/courses/course_back.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -217,7 +217,7 @@ background-color: #FEF2F4;
 }
 /* testimonials ------------------------ */
 .slider{
-    background-image: url(../images/slider-back.png);
+    background-image: url(../images-fatma/slider-back.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -237,7 +237,7 @@ background-color: #FEF2F4;
   }
 /*  enroll -=------------------------------- */
 .enroll{
-    background-image: url(../images/Background\ \(1\).png);
+    background-image: url(../images-fatma/Background\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,7 +256,7 @@ background-color: #FEF2F4;
 }
 /* career ------------------------- */
 .career{
-    background-image: url(../images/career/career-back.png);
+    background-image: url(../images-fatma/career/career-back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ background-color: #FEF2F4;
     color: #fff;
 }
 .shape{
-    background-image: url(../images/career/shape.png);
+    background-image: url(../images-fatma/career/shape.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +298,7 @@ background-color: #FEF2F4;
 /* ------------------ */
 
 .newsletter{
-    background-image: url(../images/newletter-back.png);
+    background-image: url(../images-fatma/newletter-back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -307,7 +307,7 @@ background-color: #FEF2F4;
 
 
 footer{
-    background-image: url(../images/footer/footer-back.png);
+    background-image: url(../images-fatma/footer/footer-back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -378,7 +378,7 @@ color: var(--primary-color);
 
 /* breadcrumb ------------------------------------------------- */
 .head-crumb{
-    background-image: url(../images/breadcrumb.png);
+    background-image: url(../images-fatma/breadcrumb.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,13 +423,13 @@ color: var(--primary-color);
 }
 
 .prices .card{
-    background-image: url(../images/price-back.png);
+    background-image: url(../images-fatma/price-back.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
 }
 .prices .card-standard{
-    background-image: url(../images/prica-back2.png);
+    background-image: url(../images-fatma/prica-back2.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
